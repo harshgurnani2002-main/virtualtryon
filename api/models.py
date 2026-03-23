@@ -14,7 +14,7 @@ class TryOn(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4)
     person_image = models.ImageField(upload_to='person/')
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    result = models.ImageField(upload_to='results/', blank=True, null=True)
+    result = models.URLField(blank=True, null=True)
     status = models.CharField(
         max_length=20, 
         default='pending',

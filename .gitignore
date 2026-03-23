@@ -1,0 +1,43 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Professional OS-specific files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+share/
+
+# Media and Static
+media/
+static/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+results/
+person/
+products/
